@@ -13,7 +13,7 @@ Accept-Language: en
 
 {
   "customer": {
-    "email": "jason@commercelayer.io"
+    "email": "filippo@commercelayer.io"
   } 
 }
 ```
@@ -62,7 +62,7 @@ Accept-Language: en
 {
   "order": {
     "customer_attributes": {
-      "email": "jason@commercelayer.io"
+      "email": "filippo@commercelayer.io"
     }
   } 
 }
