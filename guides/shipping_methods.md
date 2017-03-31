@@ -17,7 +17,7 @@ Accept-Language: en
       "name": "Filippo Conforti",
       "phone": "+39 1234567890"
     },
-    shipping_address_attributes: {
+    "shipping_address_attributes": {
       "geocoding_street": "Via Del Carmine",
       "geocoding_number": "11",
       "geocoding_city": "Prato",
