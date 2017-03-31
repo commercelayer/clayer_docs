@@ -49,7 +49,7 @@ Accept-Language: en
 
 ## Add to cart (not empty)
 
-### Option 1: single line item
+### Option 1: Single line item
 
 #### Example request
 
