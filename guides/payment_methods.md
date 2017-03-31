@@ -39,14 +39,14 @@ Accept-Language: en
 
 {
   "payment_method": {
-  	"payment_source_attributes": {
-  		"resource": "credit_card",
-    	"first_name": "Filippo",
-    	"last_name": "Conforti",
-    	"number": "4111111111111111",
-    	"verification_value": "423",
-    	"month": "3",
-    	"year": "2032"
+    "payment_source_attributes": {
+      "resource": "credit_card",
+      "first_name": "Filippo",
+      "last_name": "Conforti",
+      "number": "4111111111111111",
+      "verification_value": "423",
+      "month": "3",
+      "year": "2032"
     },
     "billing_recipient_id": 555,
     "billing_address_id": 777
@@ -72,10 +72,10 @@ Accept-Language: en
 
 {
   "payment_method": {
-  	"payment_source_attributes": {
-  		"resource": "paypal_account"
-  	},
-  	"redirect_url": "http://example.com/redirect",
+    "payment_source_attributes": {
+      "resource": "paypal_account"
+    },
+    "redirect_url": "http://example.com/redirect",
     "billing_recipient_id": 555,
     "billing_address_id": 777
   } 
@@ -100,9 +100,9 @@ Accept-Language: en
 
 {
   "payment_method": {
-  	"payment_source_attributes": {
-  		"resource": "wire_transfer"
-  	},
+    "payment_source_attributes": {
+      "resource": "wire_transfer"
+    },
     "billing_recipient_id": 555,
     "billing_address_id": 777
   } 
@@ -127,9 +127,9 @@ Accept-Language: en
 
 {
   "payment_method": {
-  	"payment_source_attributes": {
-  		"resource": "wire_transfer"
-  	},
+    "payment_source_attributes": {
+      "resource": "wire_transfer"
+    },
     "billing_recipient_attributes": {
       "name": "Massimo Scardellato",
       "phone": "+39 1234567890"
