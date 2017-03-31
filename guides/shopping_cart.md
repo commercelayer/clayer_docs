@@ -12,15 +12,15 @@ Content-Type: application/json
 Accept-Language: en
 
 {
-	"order": {
-		"line_items_attributes": [
-			{
-				"sellable_resource": "product",
-				"sellable_id": 23,
-				"quantity": 2
-			}
-		]
-	}	
+  "order": {
+    "line_items_attributes": [
+      {
+        "sellable_resource": "product",
+        "sellable_id": 23,
+        "quantity": 2
+      }
+    ]
+  } 
 }
 ```
 
@@ -61,13 +61,13 @@ Content-Type: application/json
 Accept-Language: en
 
 {
-	"line_item": {
-		{
-			"sellable_resource": "product",
-			"sellable_id": 24,
-			"quantity": 1
-		}
-	}	
+  "line_item": {
+    {
+      "sellable_resource": "product",
+      "sellable_id": 24,
+      "quantity": 1
+    }
+  } 
 }
 ```
 
@@ -88,20 +88,20 @@ Content-Type: application/json
 Accept-Language: en
 
 {
-	"order": {
-		"line_items_attributes": [
-			{
-				"sellable_resource": "product",
-				"sellable_id": 23,
-				"quantity": 5
-			},
-			{
-				"sellable_resource": "product",
-				"sellable_id": 24,
-				"quantity": 1
-			}
-		]
-	}	
+  "order": {
+    "line_items_attributes": [
+      {
+        "sellable_resource": "product",
+        "sellable_id": 23,
+        "quantity": 5
+      },
+      {
+        "sellable_resource": "product",
+        "sellable_id": 24,
+        "quantity": 1
+      }
+    ]
+  } 
 }
 ```
 
@@ -124,11 +124,11 @@ Content-Type: application/json
 Accept-Language: en
 
 {
-	"line_item": {
-		{
-			"quantity": 4
-		}
-	}	
+  "line_item": {
+    {
+      "quantity": 4
+    }
+  } 
 }
 ```
 
@@ -149,18 +149,18 @@ Content-Type: application/json
 Accept-Language: en
 
 {
-	"order": {
-		"line_items_attributes": [
-			{
-				"id": 123
-				"quantity": 4
-			},
-			{
-				"id": 124
-				"quantity": 7
-			}			
-		]
-	}	
+  "order": {
+    "line_items_attributes": [
+      {
+        "id": 123
+        "quantity": 4
+      },
+      {
+        "id": 124
+        "quantity": 7
+      }     
+    ]
+  } 
 }
 ```
 
@@ -200,18 +200,18 @@ Content-Type: application/json
 Accept-Language: en
 
 {
-	"order": {
-		"line_items_attributes": [
-			{
-				"id": 123,
-				"_destroy": "1"				
-			},
-			{
-				"id": 124,
-				"_destroy": "1"				
-			}			
-		]
-	}	
+  "order": {
+    "line_items_attributes": [
+      {
+        "id": 123,
+        "_destroy": "1"       
+      },
+      {
+        "id": 124,
+        "_destroy": "1"       
+      }     
+    ]
+  } 
 }
 ```
 
