@@ -1,6 +1,6 @@
 # Checkout
 
-## 1. Shopping Bag
+## 1. Shopping Cart
 ## 2. Customer information
 ## 3. Shipping method(s)
 ## 4. Payment method(s)
