@@ -1,6 +1,8 @@
 # Shipping Methods
 
-## Add shipping method to order (shipping recipient and address)
+## Add shipping method to order
+
+### Option 1: New shipping recipient and address
 
 #### Example request
 
@@ -23,6 +25,30 @@ Accept-Language: en
       "geocoding_city": "Prato",
       "geocoding_zip": "59100"
     }
+  } 
+}
+```
+
+#### Example response
+```http
+...
+```
+
+### Option 2: Existing shipping recipient and address
+
+#### Example request
+
+```http
+POST /channel/orders/<order_token>/shipping_methods
+
+Authorization: Bearer <access_token>
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "shipping_method": {
+    "shipping_recipient_id": 321,
+    "shipping_address_id": 456
   } 
 }
 ```
