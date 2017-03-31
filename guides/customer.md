@@ -2,7 +2,7 @@
 
 ## Create a new customer
 
-### Example request
+#### Example request
 
 ```http
 POST /channel/customers
@@ -18,14 +18,16 @@ Accept-Language: en
 }
 ```
 
-### Example response
+#### Example response
 ```http
 ...
 ```
 
 ## Add customer to order
 
-### Option 1: Example request
+### Option 1: Existing customer
+
+#### Example request
 
 ```http
 PUT /channel/orders/<order_token>
@@ -41,12 +43,14 @@ Accept-Language: en
 }
 ```
 
-### Example response
+#### Example response
 ```http
 ...
 ```
 
-### Option 2: Example request
+### Option 2: New customer
+
+#### Example request
 
 ```http
 PUT /channel/orders/<order_token>
@@ -64,7 +68,7 @@ Accept-Language: en
 }
 ```
 
-### Example response
+#### Example response
 ```http
 ...
 ```
