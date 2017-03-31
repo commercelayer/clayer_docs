@@ -62,11 +62,9 @@ Accept-Language: en
 
 {
   "line_item": {
-    {
-      "sellable_resource": "product",
-      "sellable_id": 24,
-      "quantity": 1
-    }
+    "sellable_resource": "product",
+    "sellable_id": 24,
+    "quantity": 1
   } 
 }
 ```
@@ -125,9 +123,7 @@ Accept-Language: en
 
 {
   "line_item": {
-    {
-      "quantity": 4
-    }
+    "quantity": 4
   } 
 }
 ```
@@ -152,11 +148,11 @@ Accept-Language: en
   "order": {
     "line_items_attributes": [
       {
-        "id": 123
+        "id": 123,
         "quantity": 4
       },
       {
-        "id": 124
+        "id": 124,
         "quantity": 7
       }     
     ]
