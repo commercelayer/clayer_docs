@@ -14,7 +14,7 @@ Accept-Language: en
 {
   "customer": {
     "email": "jason@commercelayer.io"
-	}	
+  } 
 }
 ```
 
@@ -35,9 +35,9 @@ Content-Type: application/json
 Accept-Language: en
 
 {
-	"order": {
-		"customer_id": 123
-	}	
+  "order": {
+    "customer_id": 123
+  } 
 }
 ```
 
@@ -56,11 +56,11 @@ Content-Type: application/json
 Accept-Language: en
 
 {
-	"order": {
-		"customer_attributes": {
-			"email": "jason@commercelayer.io"
-		}
-	}	
+  "order": {
+    "customer_attributes": {
+      "email": "jason@commercelayer.io"
+    }
+  } 
 }
 ```
 
