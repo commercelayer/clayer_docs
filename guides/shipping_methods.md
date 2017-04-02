@@ -105,7 +105,7 @@ Accept-Language: en
 ...
 ```
 
-## Add shipping method to line item(s)
+## Add multiple shipping methods to order
 
 ### Option 1: Single line item
 
@@ -137,6 +137,7 @@ Accept-Language: en
 #### Example response
 ```http
 ...
+```
 
 ### Option 2: Multiple line items
 

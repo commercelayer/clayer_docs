@@ -149,3 +149,61 @@ Accept-Language: en
 ...
 ```
 
+## Add multiple payment methods to order
+
+#### Example request
+
+```http
+POST /channel/orders/<order_token>/payment_methods
+
+Authorization: Bearer <access_token>
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "payment_method": {
+    "payment_source_attributes": {
+      "resource": "credit_card",
+      "first_name": "Filippo",
+      "last_name": "Conforti",
+      "number": "4111111111111111",
+      "verification_value": "423",
+      "month": "3",
+      "year": "2032"
+    },
+    "billing_recipient_id": 555,
+    "billing_address_id": 777,
+    "amount": 300
+  } 
+}
+```
+
+#### Example response
+```http
+...
+```
+
+#### Example request
+
+```http
+POST /channel/orders/<order_token>/payment_methods
+
+Authorization: Bearer <access_token>
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "payment_method": {
+    "payment_source_attributes": {
+      "resource": "wire_transfer"
+    },
+    "billing_recipient_id": 555,
+    "billing_address_id": 777
+  } 
+}
+```
+
+#### Example response
+```http
+...
+```
