@@ -104,3 +104,69 @@ Accept-Language: en
 ```http
 ...
 ```
+
+## Add shipping method to line item(s)
+
+### Option 1: Single line item
+
+#### Example request
+
+```http
+POST /channel/line_items/123/shipping_methods
+
+Authorization: Bearer <access_token>
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "shipping_method": {
+    "shipping_recipient_attributes": {
+      "name": "Filippo Conforti",
+      "phone": "+39 1234567890"
+    },
+    "shipping_address_attributes": {
+      "geocoding_street": "Via Del Carmine",
+      "geocoding_number": "11",
+      "geocoding_city": "Prato",
+      "geocoding_zip": "59100"
+    }
+  } 
+}
+```
+
+#### Example response
+```http
+...
+
+### Option 2: Multiple line items
+
+#### Example request
+
+```http
+POST /channel/orders/<order_token>/shipping_methods
+
+Authorization: Bearer <access_token>
+Content-Type: application/json
+Accept-Language: en
+
+{
+  "shipping_method": {
+    "_line_item_ids": [1,2,3],
+    "shipping_recipient_attributes": {
+      "name": "Filippo Conforti",
+      "phone": "+39 1234567890"
+    },
+    "shipping_address_attributes": {
+      "geocoding_street": "Via Del Carmine",
+      "geocoding_number": "11",
+      "geocoding_city": "Prato",
+      "geocoding_zip": "59100"
+    }
+  } 
+}
+```
+
+#### Example response
+```http
+...
+```

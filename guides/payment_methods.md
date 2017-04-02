@@ -26,7 +26,7 @@ Accept-Language: en
 
 ## Add payment method to order
 
-### Option 1: New credit card, same billing address as shipping
+### Option 1: New credit card, billing address same as shipping
 
 #### Example request
 
@@ -59,7 +59,7 @@ Accept-Language: en
 ...
 ```
 
-### Option 2: New paypal_account, same billing address as shipping
+### Option 2: New paypal_account, billing address same as shipping
 
 #### Example request
 
@@ -87,7 +87,7 @@ Accept-Language: en
 ...
 ```
 
-### Option 3: New wire_transfer, same billing address as shipping
+### Option 3: New wire_transfer, billing address same as shipping
 
 #### Example request
 
@@ -148,3 +148,4 @@ Accept-Language: en
 ```http
 ...
 ```
+
